@@ -116,11 +116,11 @@ const Slider = () => {
                       <div className="column4">
                         <img className="youtube" src={youtube} alt="logo" />
                         <span>
-                        <a className="visit" href="https://www.youtube.com/watch?v=D_Tz9LOzX6Q&feature=emb_imp_woyt" >Watch Testimonial</a>
+                        <a rel="noreferrer" className="visit" href="https://www.youtube.com/watch?v=D_Tz9LOzX6Q&feature=emb_imp_woyt" target="_blank">Watch Testimonial</a>
                         </span>
                         <p className="description" >{slide.desc}</p>
                         <br />
-                        <a className="readmore" href="https://geekster.in/student-testimony?name=Kaushal+Sorathiya">Read More</a>
+                        <a rel="noreferrer" className="readmore" href="https://geekster.in/student-testimony?name=Kaushal+Sorathiya" target="_blank">Read More</a>
                       </div>
                     </div>
                   </div>
