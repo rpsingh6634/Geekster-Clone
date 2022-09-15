@@ -12,7 +12,7 @@ const Slider = () => {
   let slideInterval;
   let intervalTime = 5000;
 
-  const CurrentSlide = () => {
+   const CurrentSlide = () => {
     setCurrentSlide(sliderData !== "https://images.geekster.in/new-testimonial/Saurabh-Garg.webp" ? 0 : "https://images.geekster.in/new-testimonial/Saurabh-Garg.webp");
   }
   const CurrentSlide1 = () => {
@@ -77,7 +77,7 @@ const Slider = () => {
       <center><h1 className="hone"><span className="span">Thousands</span> of lives changed</h1></center>
       <center><h4 className="hfour">Hear it from the ones who have been on this journey already</h4></center>
       <div className="row">
-        <div className="column1">
+        <div className="column1" >
           <div className="one" >
             <img className="img1" src={"https://images.geekster.in/new-testimonial/Saurabh-Garg.webp"} alt="logo" onClick={() => { CurrentSlide(); }} />
             <img className="img2" src={"https://images.geekster.in/new-testimonial/Naveen-Katiyar.webp"} alt="logo" onClick={() => { CurrentSlide1(); }} />

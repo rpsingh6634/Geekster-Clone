@@ -163,6 +163,9 @@
   .one{
     display: flex;
   }
+  .active{
+    opacity:0.8;
+  }
 
   .img1{
     height: 80px;
@@ -272,7 +275,7 @@
   }
   .hone{
     color: #fff;
-    font-family: 'Inconsolata', monospace;
+    
   }
   .span{
     color: rgb(58, 122, 88);
